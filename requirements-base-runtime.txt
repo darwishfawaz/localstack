@@ -20,7 +20,7 @@ botocore==1.40.64
     #   s3transfer
 cachetools==6.2.1
     # via localstack-core (pyproject.toml)
-cbor2==5.7.1
+cbor2==5.9.0
     # via localstack-core (pyproject.toml)
 certifi==2025.10.5
     # via requests
@@ -32,7 +32,7 @@ click==8.3.0
     # via localstack-core (pyproject.toml)
 constantly==23.10.4
     # via localstack-twisted
-cryptography==46.0.3
+cryptography==50.0.0
     # via
     #   localstack-core (pyproject.toml)
     #   pyopenssl
@@ -48,11 +48,11 @@ h11==0.16.0
     # via
     #   hypercorn
     #   wsproto
-h2==4.3.0
+h2==4.4.1
     # via
     #   hypercorn
     #   localstack-twisted
-hpack==4.1.0
+hpack==4.2.0
     # via h2
 hypercorn==0.17.3
     # via localstack-core (pyproject.toml)
@@ -60,7 +60,7 @@ hyperframe==6.1.0
     # via h2
 hyperlink==21.0.0
     # via localstack-twisted
-idna==3.11
+idna==3.15
     # via
     #   hyperlink
     #   localstack-twisted
@@ -127,9 +127,9 @@ psutil==7.1.3
     # via localstack-core (pyproject.toml)
 pycparser==2.23
     # via cffi
-pygments==2.19.2
+pygments==2.20.0
     # via rich
-pyopenssl==25.3.0
+pyopenssl==26.0.0
     # via
     #   localstack-core (pyproject.toml)
     #   localstack-twisted
@@ -137,7 +137,7 @@ python-dateutil==2.9.0.post0
     # via
     #   botocore
     #   localstack-core (pyproject.toml)
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via localstack-core (pyproject.toml)
 pyyaml==6.0.3
     # via
@@ -150,7 +150,7 @@ referencing==0.36.2
     #   jsonschema
     #   jsonschema-path
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   docker
     #   jsonschema-path
@@ -182,13 +182,13 @@ typing-extensions==4.15.0
     #   localstack-core (pyproject.toml)
     #   localstack-twisted
     #   readerwriterlock
-urllib3==2.5.0
+urllib3==2.7.0
     # via
     #   botocore
     #   docker
     #   localstack-core (pyproject.toml)
     #   requests
-werkzeug==3.1.3
+werkzeug==3.1.6
     # via
     #   localstack-core (pyproject.toml)
     #   openapi-core
